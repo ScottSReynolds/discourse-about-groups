@@ -1,0 +1,7 @@
+{{#each groups as |g|}}
+<section class="about">
+  <h3>{{d-icon "users"}} {{if g.full_name g.full_name g.displayName}}</h3>
+  {{about-page-users users=g.members}}
+  <div class="clearfix"></div>
+</section>
+{{/each}}

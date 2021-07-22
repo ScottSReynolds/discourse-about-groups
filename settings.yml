@@ -1,0 +1,8 @@
+groups:
+  default: "admins|moderators"
+  type: list
+  list_type: compact
+  description: "These groups will show on the about page."
+show_user_in_multiple_groups:
+  default: true
+  description: "When enabled, a user will appear in every selected group they're a member of. When disabled, they'll only appear in the first group they're a member of. (Example: They're a member of admins and moderators but admins appears first so they're only shown in the admins group.)"

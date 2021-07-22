@@ -1,0 +1,8 @@
+{
+  "about_url": "https://github.com/ScottSReynolds/discourse-about-groups",
+  "license_url": "https://github.com/ScottSReynolds/discourse-about-groups/LICENSE",
+  "assets": {
+  },
+  "name": "discourse-about-groups",
+  "component": true
+}
